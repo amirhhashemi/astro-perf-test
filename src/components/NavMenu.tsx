@@ -1,6 +1,6 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 
-export default () => (
+const NavMenu =  () => (
   <NavigationMenu.Root>
     <NavigationMenu.List>
       <NavigationMenu.Item>
@@ -68,3 +68,5 @@ export default () => (
     </NavigationMenu.List>
   </NavigationMenu.Root>
 );
+
+export default NavMenu
